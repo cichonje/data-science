@@ -1,5 +1,4 @@
 import pandas as pd 
-import evaluator 
 from kmodes.kmodes import KModes
 
 train = pd.read_csv('/Users/jessicacichon/Desktop/dsrepo/data-science/customer-segmentation/train_processed.csv')
