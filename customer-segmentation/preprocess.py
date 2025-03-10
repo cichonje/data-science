@@ -59,3 +59,6 @@ print(cust_data.head())
 cust_data.to_csv('/Users/jessicacichon/Desktop/dsrepo/data-science/customer-segmentation/train_processed.csv')
 
 #Smarter imputation method, probablistic potentially?? 
+
+test = cust_data.groupby(['Profession', 'Gender'])['Age'].sum().reset_index()
+print(test.head())
