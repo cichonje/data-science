@@ -12,4 +12,5 @@ km = KModes(n_clusters=4, init='Huang', n_init=5, verbose=1)
 clusters = km.fit_predict(train)
 
 # Print the cluster centroids
-print(km.cluster_centroids_)
+print(km.cluster_centroids_) 
+
